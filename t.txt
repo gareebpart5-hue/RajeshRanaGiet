@@ -1,9 +1,20 @@
 git config --global user.name "Rajesh Rana"
 git config --global user.email "gareebpart9@gmail.com"
 
-
+ls -a
 git init 
 git add .
 git commit -m "first commit"
 git branch -M main
 git push -u origin main
+
+
+ls -a
+git init 
+git add .
+git remote add origin <link>
+git remote -u
+git branch 
+
+git branch -M main
+git push origin main
